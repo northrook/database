@@ -1,0 +1,26 @@
+{
+  "name": "northrook/database",
+  "description": "Testing Database ORM",
+  "version": "0.0.1-dev",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Core\\": "src"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=8.3",
+    "doctrine/dbal": "^4.2",
+    "ext-pdo": "*"
+  },
+  "require-dev": {
+    "northrook/pathfinder": "dev-main",
+    "tracy/tracy": "@stable",
+    "northrook/clerk": "dev-main",
+    "northrook/php-cs": "dev-main",
+    "northrook/logger": "dev-main"
+  }
+}
